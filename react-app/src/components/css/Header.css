@@ -1,0 +1,54 @@
+.fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #9fddb0;
+    padding: 1%;
+    z-index: 9999;
+}
+
+.header-button {
+    border: none;
+    border-radius: 20px;
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: transform 0.3s;
+    background-size: cover; /* Cover the entire button area */
+    background-position: center; /* Center the image */
+    width: 50px; /* Adjust based on your needs */
+    height: 50px; /* Adjust based on your needs */
+    background-color: transparent;
+}
+
+
+.favorites-button {
+    background-image: url('./Icon_heart.png'); /* Path to your image */
+}
+
+.fact-button {
+    background-image: url('./Icon_fact.png'); /* Path to your image */
+}
+
+.profile-button {
+    background-image: url('./Icon_login.png'); /* Path to your image */
+}
+
+.contact-button {
+    background-image: url('./Icon_contact.png'); /* Path to your image */
+}
+
+.header-button:hover {
+    transform: scale(1.1); /* Slightly enlarge button on hover */
+}
+
+.log-out {
+    position: absolute;
+    right: 5%;
+    width: 100px; 
+    height: 30px;
+}
+
+ 
+  
+  
